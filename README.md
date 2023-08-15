@@ -1,5 +1,5 @@
-# download_file_sharepoint_python
-This  template contains a python script that helps to download a file from a SharePoint location to your local server.
+# upload_file_sharepoint_python
+This  template contains a python script that helps to upload a file to a SharePoint location from your local server.
 
 
 ## Pre-Requisites
@@ -10,10 +10,10 @@ This  template contains a python script that helps to download a file from a Sha
 - SHAREPOINT_URL - SharePoint URL from where you want to download the file.
 - SHAREPOINT_USERNAME - SharePoint Username for authentication
 - SECRET_ID - SecretID for retrieving the SharePoint password from AWS Secret Manager
-- FILE_URL - Filepath in SharePoint Loccation
-- LOCAL_PATH - Local Path where you want to download the file
+- FOLDER_URL - Folder relative path in SharePoint where you want to upload the file
+- LOCAL_PATH - Local File Path that needs to be uploaded to SharePoint
 
 ## How to run the script
 
 - Clone the Repo
-- Run the script using the following command `python3 download_file_sharepoint.py`
+- Run the script using the following command `python3 upload_file_sharepoint.py`
