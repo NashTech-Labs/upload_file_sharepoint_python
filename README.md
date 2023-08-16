@@ -7,11 +7,11 @@ This  template contains a python script that helps to upload a file to a SharePo
 - AWS CLI Installed
 - Export the following variables on the terminal using command `export sharepoint_url = "https://companyname.sharepoint.com/sites/site-name"`:
 
-- SHAREPOINT_URL - SharePoint URL from where you want to download the file.
-- SHAREPOINT_USERNAME - SharePoint Username for authentication
-- SECRET_ID - SecretID for retrieving the SharePoint password from AWS Secret Manager
-- FOLDER_URL - Folder relative path in SharePoint where you want to upload the file
-- LOCAL_PATH - Local File Path that needs to be uploaded to SharePoint
+  - SHAREPOINT_URL - SharePoint URL from where you want to download the file.
+  - SHAREPOINT_USERNAME - SharePoint Username for authentication
+  - SECRET_ID - SecretID for retrieving the SharePoint password from AWS Secret Manager
+  - FOLDER_URL - Folder relative path in SharePoint where you want to upload the file
+  - LOCAL_PATH - Local File Path that needs to be uploaded to SharePoint
 
 ## How to run the script
 
